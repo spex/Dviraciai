@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using DviraciuSurinktuve.Entities
+@model DviraciuSurinktuve.Models.SurinktuveViewModel
+
+
+    <ul>
+        @foreach (Detalė det in Model.Visos)
+        {
+           <li>@det.Pavadinimas</li>    
+        }
+      </ul>
+   

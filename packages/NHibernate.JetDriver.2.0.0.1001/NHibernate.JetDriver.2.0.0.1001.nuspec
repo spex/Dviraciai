@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NHibernate.JetDriver</id>
+    <version>2.0.0.1001</version>
+    <title>NHibernate.JetDriver</title>
+    <authors>NHibernate community, Hibernate community</authors>
+    <owners>NHibernate community, Hibernate community</owners>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.txt</licenseUrl>
+    <projectUrl>http://sourceforge.net/projects/nhcontrib/</projectUrl>
+    <iconUrl>https://raw.github.com/nhibernate/nhibernate-core/3.3.x/logo/NHibernate-NuGet.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Jet (Microsoft Access) driver for NHibernate, from the NHibernate.Contrib project. The source code for the NuGet package can be found here: https://bitbucket.org/dabide/nhcontrib</description>
+    <summary>A Jet driver for NHibernate</summary>
+    <tags>ORM, DataBase, DAL, ObjectRelationalMapping, Access</tags>
+    <dependencies>
+      <dependency id="log4net" version="2.0.0" />
+      <dependency id="NHibernate" version="3.3.2.4000" />
+      <dependency id="Iesi.Collections" version="3.3.2.4000" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,31 @@
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\DviraciuSurinktuve.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\DviraciuSurinktuve.pdb
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\EntityFramework.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\EntityFramework.xml
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\FluentNHibernate.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\Iesi.Collections.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\FluentNHibernate.xml
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\Iesi.Collections.xml
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.xml
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\log4net.dll
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\log4net.xml
+C:\Users\Mindaugo\MINDAUGO\Univeras\ProgramavimoInzinerija\Projektas\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.JetDriver.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\DviraciuSurinktuve.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\DviraciuSurinktuve.pdb
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\EntityFramework.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\FluentNHibernate.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\Iesi.Collections.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\log4net.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.JetDriver.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\EntityFramework.xml
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\FluentNHibernate.xml
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\Iesi.Collections.xml
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\log4net.xml
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.xml
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
+C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb

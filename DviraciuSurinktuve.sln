@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DviraciuSurinktuve", "DviraciuSurinktuve\DviraciuSurinktuve.csproj", "{F7C61058-01F9-4AF8-88EE-7D86C6151658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C61058-01F9-4AF8-88EE-7D86C6151658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C61058-01F9-4AF8-88EE-7D86C6151658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C61058-01F9-4AF8-88EE-7D86C6151658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C61058-01F9-4AF8-88EE-7D86C6151658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
