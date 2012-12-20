@@ -11,6 +11,10 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Automapping;
 using DviraciuSurinktuve.Models;
 using DviraciuSurinktuve.Entities;
+using FluentNHibernate.Conventions;
+using System.Reflection;
+using FluentNHibernate;
+using DviraciuSurinktuve.Entities.Mappings;
 
 namespace DviraciuSurinktuve
 {
@@ -52,8 +56,10 @@ namespace DviraciuSurinktuve
             SessionFactory = config.BuildSessionFactory();
             SessionFactory = Fluently.Configure(config)
             .Database(FluentNHibernate.Cfg.Db.JetDriverConfiguration.Standard)
-            .Mappings(m=> m.AutoMappings
-            .Add(AutoMap.AssemblyOf<Detalė>(scfg)))
+            .Mappings(m => m.FluentMappings
+                 .AddFromAssemblyOf<DetalėMapping>()
+                 .AddFromAssemblyOf<DetaliųGrupėMapping>()
+            )
             .BuildSessionFactory();
             /* SessionFactory = Fluently.Configure()
  .Database(FluentNHibernate.Cfg.Db.JetDriverConfiguration.Standard
@@ -61,6 +67,8 @@ namespace DviraciuSurinktuve
 */
 
         }
+       
+
         public class NHibernateSessionModule : IHttpModule
         {
             public void Dispose()

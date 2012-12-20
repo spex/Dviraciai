@@ -7,11 +7,11 @@ using DviraciuSurinktuve.Entities;
 namespace DviraciuSurinktuve.Models{
 
    public class SurinktuveViewModel {
-       public IList<Detalė> Visos{get; set;}
+       public IList<DetaliųGrupė> VisosGrupės { get; set; }
 
-       public SurinktuveViewModel(IList<Detalė> v)
+       public SurinktuveViewModel(IList<DetaliųGrupė> v)
        {
-        Visos =  v;
+           VisosGrupės = v;
        }
 
     }

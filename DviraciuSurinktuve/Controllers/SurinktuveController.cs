@@ -16,7 +16,7 @@ namespace DviraciuSurinktuve.Controllers
         public ActionResult Index()
         {
             var session = MvcApplication.SessionFactory.OpenSession();
-            var v = session.CreateCriteria(typeof(Detalė)).List<Detalė>();
+            var v = session.CreateCriteria(typeof(DetaliųGrupė)).List<DetaliųGrupė>();
             return View(new SurinktuveViewModel(v));
         }
 

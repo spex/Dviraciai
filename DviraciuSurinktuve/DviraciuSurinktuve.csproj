@@ -21,6 +21,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -88,6 +92,13 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SurinktuveController.cs" />
+    <Compile Include="Entities\DetaliųJungtis.cs" />
+    <Compile Include="Entities\DetaliųJungčiųGrupė.cs" />
+    <Compile Include="Entities\DetaliųGrupė.cs" />
+    <Compile Include="Entities\Mappings\DetaliųJungčiųGrupėMapping.cs" />
+    <Compile Include="Entities\Mappings\DetalėsJungtisMapping.cs" />
+    <Compile Include="Entities\Mappings\DetaliųGrupėMapping.cs" />
+    <Compile Include="Entities\Mappings\DetalėMapping.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

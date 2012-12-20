@@ -1,6 +1,7 @@
 ﻿using FluentNHibernate.Automapping;
 using System;
 using FluentNHibernate;
+using FluentNHibernate.Conventions;
 public class StoreConfiguration : DefaultAutomappingConfiguration
 {
     public override bool ShouldMap(Type type)
@@ -12,4 +13,14 @@ public class StoreConfiguration : DefaultAutomappingConfiguration
         return member.Name == member.DeclaringType.Name + "_ID";
     }
 
+}
+public class CustomForeignKeyConvention : ForeignKeyConvention
+{
+    protected override string GetKeyName(Member property, Type type)
+    {
+        if (property == null)
+            return type.Name + "_FK";
+
+        return property.Name + "_FK";
+    }
 }

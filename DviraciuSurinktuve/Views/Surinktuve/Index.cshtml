@@ -12,9 +12,21 @@
 
 
     <ul>
-        @foreach (Detalė det in Model.Visos)
+        @foreach (DetaliųGrupė gr in Model.VisosGrupės)
         {
-           <li>@det.Pavadinimas</li>    
+           <li>@gr.Pavadinimas</li>   
+            <ul> 
+             @foreach (Detalė det in gr.Detalės)
+              { 
+                  <li>@det.Pavadinimas</li>  
+                             <ul> 
+             @foreach (DetaliųJungtis jung in det.Jungtys)
+              { 
+                  <li>@jung.Pavadinimas - @jung.Grupė.Pavadinimas</li>  
+              }
+            </ul>
+              }
+            </ul>
         }
       </ul>
    

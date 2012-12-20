@@ -29,3 +29,19 @@ C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSu
 C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\bin\NHibernate.xml
 C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
 C:\Users\mzspe_000\Documents\Informacines Sistemos\DviraciuSurinktuve\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb
+C:\web\Dviraciai\DviraciuSurinktuve\bin\DviraciuSurinktuve.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\DviraciuSurinktuve.pdb
+C:\web\Dviraciai\DviraciuSurinktuve\bin\EntityFramework.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\FluentNHibernate.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\Iesi.Collections.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\log4net.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\NHibernate.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\NHibernate.JetDriver.dll
+C:\web\Dviraciai\DviraciuSurinktuve\bin\EntityFramework.xml
+C:\web\Dviraciai\DviraciuSurinktuve\bin\FluentNHibernate.xml
+C:\web\Dviraciai\DviraciuSurinktuve\bin\Iesi.Collections.xml
+C:\web\Dviraciai\DviraciuSurinktuve\bin\log4net.xml
+C:\web\Dviraciai\DviraciuSurinktuve\bin\NHibernate.xml
+C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.csprojResolveAssemblyReference.cache
+C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
+C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb
