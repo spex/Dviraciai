@@ -8,10 +8,9 @@ namespace DviraciuSurinktuve.Models{
 
    public class SurinktuveViewModel {
        public IList<DetaliųGrupė> VisosGrupės { get; set; }
-
-       public SurinktuveViewModel(IList<DetaliųGrupė> v)
+       public KomplektacijaPartialViewModel KomplektacijaModel { get; set; }
+       public SurinktuveViewModel()
        {
-           VisosGrupės = v;
        }
 
     }

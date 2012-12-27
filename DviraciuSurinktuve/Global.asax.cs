@@ -59,6 +59,10 @@ namespace DviraciuSurinktuve
             .Mappings(m => m.FluentMappings
                  .AddFromAssemblyOf<DetalėMapping>()
                  .AddFromAssemblyOf<DetaliųGrupėMapping>()
+                 .AddFromAssemblyOf<DetaliųJungtisMapping>()
+                 .AddFromAssemblyOf<DetaliųJungčiųGrupėMapping>()
+                 .AddFromAssemblyOf<KomplektacijaMapping>()
+                 .AddFromAssemblyOf<ŠablonasMapping>()
             )
             .BuildSessionFactory();
             /* SessionFactory = Fluently.Configure()

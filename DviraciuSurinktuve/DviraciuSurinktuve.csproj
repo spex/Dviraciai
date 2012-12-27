@@ -85,29 +85,54 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="T4MVCExtensions">
+      <HintPath>..\packages\T4MVCExtensions.3.2.0\lib\net40\T4MVCExtensions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="Additional\MVCHelpers.cs" />
     <Compile Include="Additional\StoreConfiguration.cs" />
     <Compile Include="Additional\OdbcConfiguration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SurinktuveController.cs" />
+    <Compile Include="Entities\Mappings\ŠablonasMapping.cs" />
+    <Compile Include="Entities\Šablonas.cs" />
+    <Compile Include="Entities\Komplektacija.cs" />
     <Compile Include="Entities\DetaliųJungtis.cs" />
     <Compile Include="Entities\DetaliųJungčiųGrupė.cs" />
     <Compile Include="Entities\DetaliųGrupė.cs" />
+    <Compile Include="Entities\Mappings\KomplektacijaMapping.cs" />
     <Compile Include="Entities\Mappings\DetaliųJungčiųGrupėMapping.cs" />
-    <Compile Include="Entities\Mappings\DetalėsJungtisMapping.cs" />
+    <Compile Include="Entities\Mappings\DetaliųJungtisMapping.cs" />
     <Compile Include="Entities\Mappings\DetaliųGrupėMapping.cs" />
     <Compile Include="Entities\Mappings\DetalėMapping.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HomeController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Entities\Detalė.cs" />
+    <Compile Include="Models\KomplektacijaPartialViewModel.cs" />
     <Compile Include="Models\DetalePartialViewModel.cs" />
     <Compile Include="Models\SurinktuveViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SurinktuveController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="T4MVC.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\IS4.accdb" />
@@ -164,6 +189,7 @@
     <Content Include="Scripts\modernizr-1.7.js" />
     <Content Include="Scripts\modernizr-1.7.min.js" />
     <Content Include="Scripts\surinktuve.js" />
+    <None Include="T4MVC.tt.settings.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -202,6 +228,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Surinktuve\Partial\DetalePartialView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Surinktuve\Partial\KomplektacijaPartialView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="T4MVC.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>T4MVC.cs</LastGenOutput>
+    </None>
+    <None Include="T4MVC.tt.hooks.t4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

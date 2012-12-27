@@ -42,7 +42,6 @@ C:\web\Dviraciai\DviraciuSurinktuve\bin\FluentNHibernate.xml
 C:\web\Dviraciai\DviraciuSurinktuve\bin\Iesi.Collections.xml
 C:\web\Dviraciai\DviraciuSurinktuve\bin\log4net.xml
 C:\web\Dviraciai\DviraciuSurinktuve\bin\NHibernate.xml
-C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.csprojResolveAssemblyReference.cache
 C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
 C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb
 C:\Users\Mindaugas\Documents\univeras\DivraciaiProj\Dviraciai\DviraciuSurinktuve\bin\DviraciuSurinktuve.dll
@@ -61,3 +60,5 @@ C:\Users\Mindaugas\Documents\univeras\DivraciaiProj\Dviraciai\DviraciuSurinktuve
 C:\Users\Mindaugas\Documents\univeras\DivraciaiProj\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.csprojResolveAssemblyReference.cache
 C:\Users\Mindaugas\Documents\univeras\DivraciaiProj\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.dll
 C:\Users\Mindaugas\Documents\univeras\DivraciaiProj\Dviraciai\DviraciuSurinktuve\obj\Debug\DviraciuSurinktuve.pdb
+C:\web\Dviraciai\DviraciuSurinktuve\obj\Debug\ResolveAssemblyReference.cache
+C:\web\Dviraciai\DviraciuSurinktuve\bin\T4MVCExtensions.dll

@@ -1,0 +1,18 @@
+﻿@using DviraciuSurinktuve.Entities
+@model DviraciuSurinktuve.Models.KomplektacijaPartialViewModel
+<div class="apibudinimas">
+    <ul>   
+    @foreach (DetaliųGrupė dg in Model.komplektacija.šablonas.Grupės)
+    {
+        <li>@dg.Pavadinimas
+        <ul>
+         @foreach (Detalė d in Model.komplektacija.Detalės.Where(x => x.Grupė.Id == dg.Id))
+         {
+            <li>@d.Id @d.Pavadinimas</li>
+         }
+        </ul>
+        </li>
+        
+    }
+    </ul>
+</div>

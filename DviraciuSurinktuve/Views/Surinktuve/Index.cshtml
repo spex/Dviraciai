@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = MVC.Shared.Views._Layout;
 }
 @using DviraciuSurinktuve.Entities
 @model DviraciuSurinktuve.Models.SurinktuveViewModel
@@ -32,10 +32,16 @@
 </ul>
 <div id="detales-parametrai">
     </div>
+<div id="komplektacijos-langas">
+    @{Html.RenderAction(MVC.Surinktuve.GautiKomplektacija());}
+</div>
+
 
 @section Scripts
 {
     <script type="text/javascript" src="@Url.Content("/Scripts/surinktuve.js")"></script>
 }
+
+
 
    

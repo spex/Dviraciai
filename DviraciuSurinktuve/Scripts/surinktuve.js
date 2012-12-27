@@ -1,5 +1,5 @@
-﻿$(document).ready(function() {
-    $(".detales-grupe .handle").click(function(e) {
+﻿$(document).ready(function () {
+    $(".detales-grupe .handle").click(function (e) {
         e.stopPropagation();
         var me = $(this),
             parent = me.parent();
@@ -13,7 +13,7 @@
             me.html("-");
         }
     });
-    $(".detale").click(function() {
+    $(".detale").click(function () {
         var me = $(this),
             myId = me.attr("data-detId");
         $.ajax({
@@ -22,7 +22,25 @@
             data: { detId: myId },
             success: function (result) {
                 $("#detales-parametrai").html(result);
+                bindPridetiDetale();
             }
         });
     });
 });
+
+function bindPridetiDetale() {
+    $(".prideti-detale").click(function (e) {
+        var me = $(this),
+            parent = me.closest(".detales-aprasymas"),
+            detId = parent.attr("data-detId");
+        $.ajax({
+            url: "Surinktuve/PridetiDetaleKomplektacijai",
+            type: "POST",
+            data: { detId: detId },
+            success: function (result) {
+                $("#komplektacijos-langas").html(result);
+            }
+        });
+    });
+
+}
