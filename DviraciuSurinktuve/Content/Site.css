@@ -322,3 +322,7 @@ div#title {
 .tri-state {
     width: 6em;
 }
+/*----Surinktuve---- */
+
+.detales-grupe.closed .grupes-detales { display: none;}
+.detales-grupe.open .grupes-detales { display: block;}

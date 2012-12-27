@@ -11,22 +11,31 @@
 @model DviraciuSurinktuve.Models.SurinktuveViewModel
 
 
-    <ul>
-        @foreach (DetaliųGrupė gr in Model.VisosGrupės)
-        {
-           <li>@gr.Pavadinimas</li>   
-            <ul> 
-             @foreach (Detalė det in gr.Detalės)
-              { 
-                  <li>@det.Pavadinimas</li>  
-                             <ul> 
-             @foreach (DetaliųJungtis jung in det.Jungtys)
-              { 
-                  <li>@jung.Pavadinimas - @jung.Grupė.Pavadinimas</li>  
-              }
+<ul>
+    @foreach (DetaliųGrupė gr in Model.VisosGrupės)
+    {
+        <li  class="detales-grupe closed" >@gr.Pavadinimas  <span class="handle">+</span> 
+            <ul class="grupes-detales"> 
+                @foreach (Detalė det in gr.Detalės)
+                { 
+                    <li class="detale" data-detId="@det.Id">@det.Pavadinimas</li>  
+                    @*<ul> 
+                        @foreach (DetaliųJungtis jung in det.Jungtys)
+                        { 
+                            <li>@jung.Pavadinimas - @jung.Grupė.Pavadinimas</li>  
+                        }
+                    </ul>*@
+                }
             </ul>
-              }
-            </ul>
-        }
-      </ul>
+        </li> 
+    }
+</ul>
+<div id="detales-parametrai">
+    </div>
+
+@section Scripts
+{
+    <script type="text/javascript" src="@Url.Content("/Scripts/surinktuve.js")"></script>
+}
+
    
